@@ -1,5 +1,6 @@
 body {
-    background: #102027
+    background: #102027;
+    font-family: 'Work Sans', sans-serif;
 }
 
 div {
@@ -7,15 +8,29 @@ div {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 75%;
     text-align: center;
+    height: 75%;
 }
 
 .title {
     color:red;
-    font-family: 'Work Sans', sans-serif;
+}
+
+.name {
+    color: #f5f5f5;
+    font-size: 65px;
 }
 
 .text-content {
-    color: #ffffff; font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+}
+
+.link {
+    color: #66bb6a;
+    text-decoration: none;
+}
+
+.position {
+    color: #A4C639;
+    font-size: 45px;
 }
