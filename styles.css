@@ -9,17 +9,31 @@ html, body {
     text-align: center;
 }
 
+.container {
+    margin: auto;
+}
+
+.top-nav-bar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.top-nav-bar a {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight:bold;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
 .avatar {
     margin-top: 30%;
     vertical-align: middle;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-}
-
-.alert {
-    color:#ef5350;
-    font-size: 31.5px;
 }
 
 .name {
