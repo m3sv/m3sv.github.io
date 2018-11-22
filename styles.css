@@ -45,7 +45,7 @@ html, body {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    margin: 30% auto 0 auto;
+    margin: 35% auto 0 auto;
 }
 
 .avatar {
@@ -86,7 +86,8 @@ html, body {
 }
 
 .icons {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 16%;
 }
 
 .icons a {
@@ -102,3 +103,15 @@ html, body {
 }
 
 .icons a i:hover { color: #d8f96b }
+
+@media (max-width: 480px) { 
+
+.icons {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.avatar-container {
+    margin: 10% auto 0 auto;
+}
+}
