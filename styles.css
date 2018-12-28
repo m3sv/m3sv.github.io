@@ -78,7 +78,7 @@ html, body {
 }
 
 .position {
-    color: #A4C639;
+    color: #ffffff;
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -103,6 +103,14 @@ html, body {
 }
 
 .icons a i:hover { color: #d8f96b }
+
+.flutter {
+    color: #5ec9f8ff;
+}
+
+.android {
+    color: #A4C639;
+}
 
 @media (max-width: 480px) { 
 
