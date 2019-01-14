@@ -8,6 +8,11 @@ html, body {
     align-items: center;
     text-align: center;
     margin: auto;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 .avatar-container {
@@ -24,14 +29,13 @@ html, body {
     vertical-align: middle;
     display: inline;
     margin: 0 auto;
-    height: auto;
     width: 100%;
 }
 
 .name {
-    font-size: 2em;
-    margin:0;
-    padding:0;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
 }
 
 .text-content {
@@ -48,7 +52,7 @@ html, body {
 }
 
 .position {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-top: 10px;
     margin-bottom: 50px;
     padding: 0;
@@ -64,14 +68,16 @@ html, body {
 }
 
 .icons a i {
-    color:white;
+    color: white;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
 }
 
-.icons a i:hover { color: #d8f96b }
+.icons a i:hover {
+    color: #d8f96b
+}
 
 .flutter {
     color: #5ec9f8ff;
@@ -81,14 +87,28 @@ html, body {
     color: #A4C639;
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
+    .icons {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .avatar-container {
+        margin: 10% auto 0 auto;
+    }
 
-.icons {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+    .name {
+        font-size: 1em;
+    }
 
-.avatar-container {
-    margin: 10% auto 0 auto;
-}
+    .position {
+        font-size: 0.75em;
+    }
+
+    .text-content {
+        font-size: 1em;
+    }
+
+    .avatar-container {
+        margin: 50% auto 0 auto;
+    }
 }
