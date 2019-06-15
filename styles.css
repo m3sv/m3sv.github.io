@@ -1,28 +1,22 @@
 html, body {
-    background: #102027;
+    background: #1c313a;
     color: #f5f5f5;
     font-family: 'Rubik', sans-serif;
-    display: flex;
-    width: 100%;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: auto;
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
+    padding-bottom: 4%;
+    margin-top: 4%;
 }
 
 .avatar-container {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     max-width: 50%;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    margin: 45% auto 0 auto;
+    margin: auto;
 }
 
 .avatar {
@@ -39,31 +33,26 @@ html, body {
 }
 
 .text-content {
-    font-size: 1.5em;
-}
-
-.cv {
-    text-decoration: none;
-    background-color: #A4C639;
-    border: none;
-    color: white;
-    padding: 12px 32px;
-    text-align: center;
-    border-radius: 6px;
-    font-size: 1.5em;
-    font-weight: 800;
+    font-size: 1.2em;
 }
 
 .position {
-    font-size: 1em;
+    font-size: 0.75em;
     margin-top: 10px;
-    margin-bottom: 50px;
     padding: 0;
 }
 
+.flutter {
+    color: #5ec9f8ff;
+}
+
+.android {
+    color: #A4C639;
+}
+
 .icons {
-    margin-top: 5%;
-    margin-bottom: 16%;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .icons a {
@@ -82,12 +71,16 @@ html, body {
     color: #d8f96b
 }
 
-.flutter {
-    color: #5ec9f8ff;
-}
-
-.android {
-    color: #A4C639;
+.cv {
+    text-decoration: none;
+    background-color: #A4C639;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 1.5em;
+    font-weight: 800;
 }
 
 @media (max-width: 480px) {
